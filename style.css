@@ -1,0 +1,229 @@
+.head{
+	display: flex;
+	justify-content: center;
+}
+
+.text1{
+   font-size: 20px;
+   color: hotpink;
+   font-family: serif;
+   
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  height: auto;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 3px solid #dadada;
+  position: relative;
+}
+
+
+#storiyan {
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  padding: 15px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* scrolbar hiddin */
+#storiyan::-webkit-scrollbar {
+  display: none;
+}
+
+.story {
+  background: linear-gradient(
+    rgb(255, 0, 0),
+    rgb(255, 127, 0),
+    rgb(255, 255, 0),
+    rgb(239, 134, 41),
+    rgb(203, 60, 228)
+  );
+  padding: 2px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.story img {
+  border: 2px solid white;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+#full-screen {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  display: none;
+}
+
+
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.dots{
+  margin-top: 10px;
+}
+
+.profile-img{
+  overflow: hidden;
+}
+
+.text2{
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-right: 200px;
+}
+
+
+  /*.post-container {
+      display: flex;
+      justify-content: space-evenly;
+      gap: none;
+    }
+    
+    .like-button {
+      cursor: pointer;
+      display: inline-block;
+      font-size: 30px;
+    }
+    .like-button:hover {
+      transform: scale(1.1);
+    }
+    .heart {
+      color: gray;
+    }
+    .heart.red {
+      color: red;
+    }
+    .action-button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+    }
+    .action-button:hover {
+      background-color: #0056b3;
+    }*/
+
+
+    .post-container {
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+
+.like-section img {
+  margin: 0; /* Remove default margins */
+  cursor: pointer;
+}
+
+.like-button {
+  cursor: pointer;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.like-button:hover {
+  transform: scale(1.1);
+}
+
+.heart {
+  color: gray;
+}
+
+.heart.red {
+  color: red;
+}
+
+.action-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+
+.com{
+  display: flex;
+  justify-content: left;
+}
+
+.text3{
+   font-size: 14px;
+   font-family: sans-serif;
+   margin-left: 20px;
+}
+
+.text4{
+  font-family: sans-serif;
+  color: grey;
+  margin-left: 20px;
+}
+
+.footer {
+      background-color: #fafafa;
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    /* Style for the footer images */
+    .footer img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+.head{
+   display: flex;
+   justify-content: space-between;
+}
+
+.head2{
+  margin-top: 11px;
+  margin-right: 10px;
+}
+
+.camera{
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.profile{
+    margin-top: 10px;
+}
